@@ -488,9 +488,9 @@
 		C1FB428D21791D2500FAB378 /* PumpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C3B6F620BBCAA30026CAFA /* PumpManager.swift */; };
 		C1FB428F217921D600FAB378 /* PumpManagerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FB428E217921D600FAB378 /* PumpManagerUI.swift */; };
 		C1FB4290217922A100FAB378 /* PumpManagerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FB428E217921D600FAB378 /* PumpManagerUI.swift */; };
+		D6605AD12EECD85800A46005 /* EversenseNowClientPlugin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D6C919FF2EE93F620076E27B /* EversenseNowClientPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D6C91A002EE93F620076E27B /* EversenseNowClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C919FE2EE93F620076E27B /* EversenseNowClient.framework */; };
 		D6C91A012EE93F620076E27B /* EversenseNowClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D6C919FE2EE93F620076E27B /* EversenseNowClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D6C91A022EE93F620076E27B /* EversenseNowClientPlugin.framework in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D6C919FF2EE93F620076E27B /* EversenseNowClientPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D6C91A042EE949F40076E27B /* NowClientUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C91A032EE949F40076E27B /* NowClientUI.framework */; };
 		D6C91A052EE949F40076E27B /* NowClientUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D6C91A032EE949F40076E27B /* NowClientUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DD3DBD292A33AFE9000F8B5B /* IntegralRetrospectiveCorrectionSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3DBD282A33AFE9000F8B5B /* IntegralRetrospectiveCorrectionSelectionView.swift */; };
@@ -696,6 +696,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				D6605AD12EECD85800A46005 /* EversenseNowClientPlugin.framework in Embed Frameworks */,
 				C19C8BC428651EAE0056D5E4 /* LoopTestingKit.framework in Embed Frameworks */,
 				4F2C159A1E0C9E5600E160D4 /* LoopUI.framework in Embed Frameworks */,
 				C19C8BCF28651F520056D5E4 /* LoopKitUI.framework in Embed Frameworks */,
@@ -729,7 +730,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				D6C91A022EE93F620076E27B /* EversenseNowClientPlugin.framework in Embed App Extensions */,
 				14B1736928AED9EE006CCD7C /* Loop Widget Extension.appex in Embed App Extensions */,
 				E9B07F94253BBA6500BAD8F8 /* Loop Intent Extension.appex in Embed App Extensions */,
 				4F70C1E81DE8DCA7006380B7 /* Loop Status Extension.appex in Embed App Extensions */,
